@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1401px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .main_background {
+  background-image: url(../img/background_image.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 120px;
+}
+@media (max-width: 1023px) {
+  main .main_background {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  main .main_background {
+    margin-bottom: 20px;
+  }
+}
+main .main_background .main_background_container {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #274c5b;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 1023px) {
+  main .main_background .main_background_container {
+    font-size: 2rem;
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  main .main_background .main_background_container {
+    height: 200px;
+    font-size: 1.3rem;
+  }
+}
+main .main_info {
+  text-align: center;
+}
+main .main_info .description {
+  margin-bottom: 42px;
+}
+main .main_info .description span {
+  /*margin-bottom: 8px;*/
+  font-size: 36px;
+  font-weight: 400;
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
+}
+main .main_info .description .p1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #274c5b;
+  margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 1023px) {
+  main .main_info .description .p1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  main .main_info .description .p1 {
+    font-size: 24px;
+  }
+}
+main .main_info .description .p2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #525c60;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+main .main_team_1 {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  margin-bottom: 42px;
+  padding: 10px;
+}
+main .main_team_1 .content_cards {
+  padding: 35px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-items: flex-end;
+}
+@media (max-width: 1023px) {
+  main .main_team_1 .content_cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1023px) {
+  main .main_team_1 .content_cards .descr__user {
+    margin-bottom: 20px;
+  }
+}
+main .main_team_1 .content_cards .descr__user .name {
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+@media (max-width: 1023px) {
+  main .main_team_1 .content_cards .descr__user .name {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 767) {
+  main .main_team_1 .content_cards .descr__user .name {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+main .main_team_1 .content_cards .descr__user .job {
+  font-family: "Yellowtail", cursive;
+  color: #7eb693;
+  font-size: 22px;
+  font-weight: normal;
+}
+@media (max-width: 1023px) {
+  main .main_team_1 .content_cards .descr__user .job {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767) {
+  main .main_team_1 .content_cards .descr__user .job {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+main .main_team_1 .main_team_1__giovani {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__giovani img {
+  width: 100%;
+}
+main .main_team_1 .main_team_1__marianne {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__marianne img {
+  width: 100%;
+}
+main .main_team_1 .main_team_1__riga {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__riga img {
+  width: 100%;
+}
+main .main_team_1 .main_team_1__keira {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__keira img {
+  width: 100%;
+}
+main .main_team_1 .main_team_1__scott {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__scott img {
+  width: 100%;
+}
+main .main_team_1 .main_team_1__karen {
+  max-width: 449px;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #f9f8f8;
+}
+main .main_team_1 .main_team_1__karen img {
+  width: 100%;
+}
+main .main_team_1 .img__social img {
+  width: 22px;
+  height: 21px;
+  margin-right: 17px;
+}
+main .main_team_1 .img__social :last-child {
+  margin-right: 0;
+}
+main .second {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
